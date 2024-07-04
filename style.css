@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #E4D4C8;
+  color: #523A28 ;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.div-um {
+  margin-top: 20px; 
+}
+
+.div-um img{
+  width: 90px;
+}
+
+.div-dois {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.text {
+  margin-top: 30px;
+}
+
+.div-icon{
+  display: flex;
+  gap:10px;
+}
+
+.botoes {
+ 
+  margin-top: 20px;
+  width: 120%;
+  text-align: center;
+
+}
+
+.button-crip {
+  background-color: #A47551;
+  width: 240px;
+  border-radius: 24px;
+  height: 40px;
+
+  border-style: none;
+ 
+}
+
+.button-des {
+  background-color: #D0B49F;
+
+  width: 240px;
+  border-radius: 24px;
+  height: 40px;
+
+  border-style: none;
+
+
+  
+}
+
+.div-img {
+  margin-top: 100px;
+}
+
+.div-tres {
+  border: 2px solid #523A28;
+
+  width: 25%;
+  margin-top: 20px;
+
+  text-align: center;
+}
+
+
+.div-tres img {
+  width: 160px;
+  height: 160px;
+
+  margin-top: 150px;
+}
+
+.textarea {
+  margin-top: 100px;
+  border: none;
+}
+
+.div-button-des{
+
+    /* margin-top: 200px; */
+    margin: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+@media (max-width: 1200px) {
+
+  .container {
+    width: 80%;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.textarea {
+ width: 80%;
+ margin: 10%;
+
+}
+
+
+.div-tres {
+
+  width: 80%;
+
+  text-align: center;
+  margin:  0 auto;
+
+}
+
+
+.div-button-des{
+
+   margin-bottom: 30px;
+
+}
+
+
+
+  
+}

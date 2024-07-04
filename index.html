@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="div-um">
+          <div>
+            <img src="./img/logo.png" />
+          </div>
+        </div>
+
+        <div class="div-dois">
+          <div class="text">
+
+            
+            <textarea
+              class="textarea"
+              name="textarea"
+              rows="30"
+              cols="80"
+              placeholder="Digite seu texto"
+              id="texto"
+            ></textarea>
+          </div>
+          <div class="div-icon">
+            <img src="./img/icon.png" />
+            <p>Apenas letras minusculas e sem acento</p>
+          </div>
+
+          <div class="botoes">
+            <button class="button-crip" onclick="criptografar()">
+              Criptografar
+            </button>
+          
+          </div>
+        </div>
+
+        <div class="div-tres">
+          <img src="./img/luar.png" />
+
+          <h1 id="resultado"></h1>
+
+          <div class="div-button-des">
+              <button class="button-des" onclick="descriptografar()">
+              Descriptografar
+            </button>
+
+             <button class="button-des" onclick="copiarResultado()">
+              Copiar
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
