@@ -26,6 +26,11 @@ O layout da aplicação está disponível no Figma:
 <img src="./img/pag4.png"/>
 <br>
 
+---
+Deploy do Projeto:
+
+<a  href="https://decodificador-nine-gold.vercel.app/"></a>
+
 
 ## 🚀 Acessar e modificar o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
