@@ -28,8 +28,7 @@ O layout da aplicação está disponível no Figma:
 
 ---
 Deploy do Projeto:
-
-<a  href="https://decodificador-nine-gold.vercel.app/"></a>
+* [Deploy](https://decodificador-nine-gold.vercel.app/)
 
 
 ## 🚀 Acessar e modificar o projeto
